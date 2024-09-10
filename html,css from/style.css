@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(pexels-photo-258196.jpeg);
+    background-repeat: no-repeat;
+}
+.design_form{
+      text-align: center;
+      background-color: rgba(239, 87, 120, 0.388);
+      width:50%;
+}
+.fname{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+div input{
+    padding: 10px;
+}
+.lname{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+.mail{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+.p_no{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+.gender{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+.option{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}
+.message{
+    font-size: large;
+    font-family: sans-serif;
+    color:#d2dae2 ;
+}textarea{
+    padding: 20px;
+}
+.design_form{
+    margin-left: 100px;
+    margin-top: 180px;
+    width: 30%;
+    border-radius: 10px;
+}
