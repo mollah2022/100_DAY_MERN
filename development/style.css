@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #95a5a6;
+}
+.nav-area{
+    display: flex;
+    background-color:#55efc4 ;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+h1{
+    background-color: #e17055;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+ul li {
+   display:inline;
+}
+ a{
+    margin-right: 100px;
+    text-decoration: none;
+    background-color: #ffeaa7;
+    padding: 10px;
+    margin-top: 1px;
+}
+.hero-area{
+    display:flex;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.hero-banner{
+    margin-left: 20px;
+    display: block;
+}
+.footer-area{
+    display:flex;
+}
