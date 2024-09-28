@@ -1,39 +1,100 @@
-*{
-    box-sizing: border-box;
+* {
+    font-family: Playwrite Deutschland Grundschrift;
+    color: #fff;
 }
-.box1{
-    background-color: blueviolet;
-    width: 30%;
-    height: 30%;
-    padding: 2%;
-    border: 0.5rem solid pink;
-    margin: 1%;
-    float: left;
+
+body {
+    background-color:#16a085;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.nav-area {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #8d44adcd;
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left-area {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.right-area {
+    margin-left: auto;
+}
+
+.nav-items-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 1rem;
+}
+
+.items-link {
+    text-decoration: none;
+}
+
+.items-link:hover {
+    color: #3b82f6;
+}
+
+@media (max-width:873px) {
+    .nav-area {
+        display: block;
+    }
+    .nav-items-container{
+        padding: 0;
+    }
+}
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+.hero-image{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.hero-left,.hero-right{
+width: 100%;
+}
+.hero-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
     text-align: justify;
-    font-family: sans-serif;
-    font-size: 20px;
 }
-.box2{
-    background-color: maroon;
-    width: 30%;
-    height: 30%;
-    padding: 2%;
-    border: 0.5rem solid pink;
-    margin: 1%;
-    float: left;
+.hero-pera{
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
     text-align: justify;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-.box3{
-    background-color:yellow;
-    width: 30%;
-    height: 30%;
-    padding: 2%;
-    border: 0.5rem solid pink;
-    margin: 1%;
-    float: left;
-    text-align:justify;
-    font-family: sans-serif;
-    font-size: 20px;
 }
