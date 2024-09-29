@@ -1,100 +1,41 @@
-* {
-    font-family: Playwrite Deutschland Grundschrift;
-    color: #fff;
-}
-
-body {
-    background-color:#16a085;
-    min-height: 100vh;
+*{
     margin: 0;
+    padding: 0;
 }
-
-.nav-area {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    background-color: #8d44adcd;
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid;
-}
-
-.nav-container {
-    display: flex;
-    align-items: center;
-    padding: 1rem;
-}
-
-.left-area {
+.nav-area{
+    background-color: cyan;
     display: flex;
 }
-
-img {
-    border-radius: 50%;
-    margin: 0 1rem;
+.photo{
+    width: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
-
-h1 {
-    font-size: 20px;
-    color: white;
-    line-height: 1.5rem;
-    letter-spacing: 0.2rem;
+.title{
+    color: #fff;
+    margin-top: 25px;
+    margin-right: 20px;
 }
-
-.right-area {
-    margin-left: auto;
+.title:hover{
+    color: crimson;
 }
-
-.nav-items-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.nav-items {
-    list-style: none;
-    margin: 1rem;
-}
-
-.items-link {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+  }
+  a {
     text-decoration: none;
-}
-
-.items-link:hover {
-    color: #3b82f6;
-}
-
-@media (max-width:873px) {
-    .nav-area {
-        display: block;
-    }
-    .nav-items-container{
-        padding: 0;
-    }
-}
-.hero-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 100vh;
-}
-.hero-image{
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
     display: block;
-}
-.hero-left,.hero-right{
-width: 100%;
-}
-.hero-title{
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 400;
-    text-align: justify;
-}
-.hero-pera{
-    padding: 0 1rem;
-    font-size: 1rem;
-    line-height: 2rem;
-    text-align: justify;
-}
+    padding: 8px;
+    margin-top: 25px;
+    margin-right: 30px;
+    font-family: sans-serif;
+  }
+  a:hover{
+    background-color: black;
+    color: #fff;
+  }
