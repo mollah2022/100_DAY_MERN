@@ -1,41 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.nav-area{
-    background-color: cyan;
+.green-area{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.photo{
-    width: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
+
+.red-area{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    border-radius: 50%;
 }
-.title{
-    color: #fff;
-    margin-top: 25px;
-    margin-right: 20px;
-}
-.title:hover{
-    color: crimson;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    float: left;
-  }
-  a {
-    text-decoration: none;
-    display: block;
-    padding: 8px;
-    margin-top: 25px;
-    margin-right: 30px;
-    font-family: sans-serif;
-  }
-  a:hover{
-    background-color: black;
-    color: #fff;
-  }

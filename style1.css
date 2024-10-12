@@ -1,0 +1,43 @@
+.main-area{
+    width: 60vw;
+    height: 90vh;
+    border: 5px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.one{
+        width: 15vw;
+        min-height: 40vh;
+        background-color: tomato;
+        color: #fff;
+        font-size: 2rem;
+}
+.two{
+    width: 15vw;
+    min-height: 40vh;
+    background-color:teal;
+    color: #fff;
+    font-size: 2rem;
+}
+.three{
+    width: 15vw;
+    min-height: 40vh;
+    background-color: yellow;
+    color: #fff;
+    font-size: 2rem;
+}
+.four{
+    width: 15vw;
+    min-height: 40vh;
+    background-color: purple;
+    color: #fff;
+    font-size: 2rem;
+}
+.five{
+    width: 15vw;
+    min-height: 40vh;
+    background-color:pink;
+    color: #fff;
+    font-size: 2rem;
+}
