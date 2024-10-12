@@ -1,0 +1,15 @@
+/* div  h1{
+    color: tomato;
+}
+*/
+/* div > h1{
+    color: tomato;
+} 
+
+ h1 + p{
+    color: tomato;
+}  */
+
+h1 ~ p{
+    color:tomato;
+}
