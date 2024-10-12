@@ -1,0 +1,46 @@
+.one{
+    width: 250px;
+    height: 250px;
+    background-color: tomato;
+    color: #fff;
+    padding: 20px;
+    border: 20px solid black;
+    /* border-radius: 20px; */
+    margin: 20px;
+    box-sizing: border-box;
+}
+.two{
+    width: 250px;
+    height: 250px;
+    background-color: teal;
+    color: #fff;
+    padding: 20px;
+    border: 20px solid palevioletred;
+    /* border-radius: 20px; */
+    margin: 20PX;
+    box-sizing: border-box;
+}
+.three{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    color: #fff;
+    padding: 20px;
+    border: 20px solid black;
+    /* border-radius: 20px; */
+    margin: 20px;
+    box-sizing: border-box;
+}
+.emni{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}
+a{
+    background-color: tomato;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+
+}
