@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #fff;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+}
+ul li a{
+    background-color: tomato;
+    padding: 20px;
+    margin:  20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nav-container{
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(4px);
+}
